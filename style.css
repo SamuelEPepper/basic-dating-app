@@ -40,6 +40,16 @@ html, body {
     padding-top: 10px;
 }
 
+.home-text {
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: "Brush Script MT";
+    font-size: 40pt;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
 .recommend-profile {
     display: flex;
     float: left;
