@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.brand {
+    font-size: 50pt;
+    font-family: "Brush Script MT";
+    padding: 15pt;
+}
+
+.page {
+    display: flex;
+    background: linear-gradient(#e66465, #9198e5);
+    flex: 1;
+    border: solid black 3pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up {
+    display: flex;
+    border: solid pink 1pt;
+    border-radius: 10px;
+    box-shadow: 10px 50px 50px rgb(0 0 0 / 0.2);
+    height: 600px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-form {
+    background: rgba(0, 0, 0, 0);
+    border: solid pink 1pt;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sign-field {
+    font-family: "Brush Script MT";
+    font-size: 40pt;
+}
+
+.submit {
+    background: linear-gradient(#9198e5, #e66465);
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 0.2);
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

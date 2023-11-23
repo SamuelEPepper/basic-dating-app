@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.page {
+    display: flex;
+    background: linear-gradient(#e66465, #9198e5);
+    flex: 1;
+    border: solid black 3pt;
+}
+
+.home-text {
+    font-size: 40pt;
+    font-family: "Brush Script MT";
+    padding-left: 30pt;
+    padding-top: 20pt;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.home-art {
+    display: flex;
+    padding-left: 400pt;
+    padding-top: 80pt;
+}
+
+.art {
+    width: 600px;
+    height: 600px;
+    border-radius: 20pt;
+    position: absolute;
+    margin-right: 100px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar:hover {
+    padding: 10pt;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
+    border-radius: 10pt;
+}
+
+.home-bottom {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    font-size: 30pt;
+    padding-bottom: 40pt;
+}
